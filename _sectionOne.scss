@@ -5,14 +5,19 @@
 
 .sectionOne{
     display: flex;
+    margin: 10px auto;
+    background-color: white;
+    width: 1046px;
     justify-content: space-around;
     color: $smallFontColor;
     font-size: $smallFontSize;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
+    // border: 2px solid black;
+    border-radius: 10px;
     div:nth-child(1) img{
         height: 168px;
         width: 175px;
-        border-radius: 12px;
+        border-radius: 16px;
         padding: 5%;
         margin-top: 2px;
         // border: 1px solid green;
@@ -22,6 +27,8 @@
 section.sectionOne div.sectionOneSecond{
     display: flex;
     flex-direction: column;
+    margin-left: 3px;
+    padding-left: 2%;
     // border: 1px solid black;
     justify-content: space-around;
     
@@ -46,6 +53,7 @@ section.sectionOne div.sectionOneSecond{
             flex-direction: column;
             justify-content: space-between;
             // border: 1px solid blue;
+            padding-right: 3%;
             color: $titleFontColor;
             div{
                 display: flex;

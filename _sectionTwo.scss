@@ -1,0 +1,159 @@
+
+.sectionTwo{
+    margin: 10px auto;
+    // background-color: white;
+    width: 1046px;
+    color: $smallFontColor;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    // border: 2px solid black;
+    border-radius: 10px;
+}
+.sectionTwoMainDiv{
+    margin-top: 33px;
+    // border: 1px solid blue;
+    display: flex;
+}
+.sectionTwoMainDivLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    // border: 1px solid rgb(3, 37, 3);
+}
+.sectionTwoMainDivLeftTop{
+    height: 303px;
+    width: 415.02px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+    padding: 3%;
+    // border: 1px solid red;
+    
+    & > p:nth-child(1){
+        color: $titleFontColor;
+        
+    }
+
+    & > div{
+        display: flex;
+        justify-content: space-around;
+        // border: 1px solid black;
+
+    }
+}
+
+.sectionTwoMainDivLeftBottom{
+    height: 835.9998168945312px;
+    width: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 12px;
+    background-color: white;
+    margin-top: 33px;
+    // border: 1px solid black;
+    & > p{
+        margin-top: 15px;
+        margin-left: 45px;
+        font-size: $smallFontSize;
+        color: $titleFontColor;
+        font-weight: 600;
+    }
+
+}
+.hobbies-list{
+    display: flex;
+    height: 800px;
+    margin: 10px auto;
+    flex-direction: column;
+    justify-content: space-around;
+    // border: 1px solid orangered;
+    img{
+        height: 139px;
+
+        width: 320.66058349609375px;
+        border-radius: 12px;
+    }
+}
+
+.hobbies-list-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    // border: 1px solid yellowgreen;
+    p{
+        margin-top: 15px;
+    }
+    & > p:nth-child(2){
+        font-size: $smallFontSize;
+        color: $titleFontColor;
+        font-weight: 600;
+    }
+}
+
+.sectionTwoMainDivRight{
+    margin-left: 30px;
+}
+
+.sectionTwoMainDivRightTop{
+    height: 656px;
+    width: 596px;
+    border-radius: 12px;
+    background-color: white;
+
+}
+.sectionTwoMainDivRightBottom{
+    height: 482px;
+    width: 596px;
+    font-size: 14px;
+    border-radius: 12px;
+    background-color: white;
+    margin-top: 35px;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    border: 1px solid red;
+
+    & > div:nth-child(1){
+        font-weight: 600;
+        font-size: $titleFontSize;
+        color: $titleFontColor;
+    }
+
+    
+
+}
+.sectionTwoMainDivRightBottomContent{
+    border: 1px solid black;
+    display: flex;
+    // padding: 5%;
+    // margin-top: 15px;
+    justify-content: space-around;
+    align-items: center;
+    & > div:nth-child(1){
+        // margin-top: 30px;
+    }
+    & > div:nth-child(1) img{
+        width: 119.25px;
+        height: 84px;
+    }
+    & > div:nth-child(2) {
+        padding-left: 5%;
+    }
+    & > div:nth-child(2) > p:nth-child(2){
+        color: $titleFontColor;
+        font-size: $smallFontSize;
+        margin-top: 6px;
+        font-weight: 600;
+    }
+    & > div:nth-child(2) > p:nth-child(3){
+        margin-top: 20px;
+    }
+}

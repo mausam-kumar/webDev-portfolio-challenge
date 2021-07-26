@@ -1,0 +1,74 @@
+.progressBarContainer{
+    display: flex;
+    justify-content: center;
+    // border: 1px solid red;
+    margin-top: 6px;
+    width: 236.85px;
+    border-radius: 20px;
+}
+
+.progressBlue{
+    height: 9.6px;
+    border-radius: 30px;
+    
+    background-color: #2F80ED;
+    z-index: 1;
+    transition: .3s all ease-out;
+    cursor: pointer;
+    
+}
+.progressBlue:hover{
+    transform: scale(1.02);
+}
+.progressWhite{
+    height: 9.6px;
+    // width: 40.85px;
+    border-radius: 20px;
+    margin-left: -6px;
+    background-color: #C4C4C4;
+    cursor: pointer;
+}
+.progressBlue1{
+    @include progressBarBlue(180px);
+    margin-left: 22px;
+    
+}
+.progressWhite1{
+    @include progressBarWhite(60.85px)
+}
+.progressBlue2{
+    @include progressBarBlue(200px);
+    margin-left: 11px;
+}
+.progressWhite2{
+    @include progressBarWhite(40.85px)
+}
+.progressBlue3{
+    @include progressBarBlue(160px);
+    margin-left: 20px;
+    
+}
+.progressWhite3{
+    @include progressBarWhite(80.85px)
+}
+.progressBlue4{
+    @include progressBarBlue(190px);
+    margin-left: 24px;
+}
+.progressWhite4{
+    @include progressBarWhite(110.85px)
+}
+.progressBlue5{
+    @include progressBarBlue(150px);
+    margin-left: 20px;
+}
+.progressWhite5{
+    @include progressBarWhite(90.85px)
+}
+.progressBlue6{
+    @include progressBarBlue(170px);
+    margin-left:6px
+}
+.progressWhite6{
+    @include progressBarWhite(70.85px)
+}

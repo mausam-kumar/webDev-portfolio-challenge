@@ -3,6 +3,14 @@ $titleFontColor : #4F4F4F;
 $smallFontColor : #828282;
 $smallFontSize : 18px;
 $titleFontSize: 24px;
+
+@mixin progressBarBlue($widthBlue) {
+    width: $widthBlue;
+}
+@mixin progressBarWhite($widthWhite) {
+    width: $widthWhite;
+    // margin-left: $mrLeft;
+}
 *{
     margin: 0px;
     padding:0px;
@@ -11,13 +19,16 @@ $titleFontSize: 24px;
 body{
     background-color: #333333;
 }
-.mainSection{
-    margin: 10px auto;
-    width: 920px;
-    
-    background-color: rgb(246, 247, 248)
+.outerMainSection{
+    width: 1250px;
+    background-color: #C4C4C4;
+    margin: 5% auto;
+    padding-top:2% ;
+    border-radius: 10px;
 }
+
 @import './sectionOne';
 @import "./sectionTwo";
+@import './progressBar';
 @import './sectionThree';
-@import './sectionFour'
+@import './sectionFour';
