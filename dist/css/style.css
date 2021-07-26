@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #333333;
+}
+
+.mainSection {
+  margin: 10px auto;
+  width: 920px;
+  background-color: #f6f7f8;
+}
+
+.fa-envelope, .fa-phone-alt {
+  /*for changing icon color*/
+  color: #4F4F4F;
+}
+
+.sectionOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #828282;
+  font-size: 18px;
+  font-family: 'Montserrat';
+}
+
+.sectionOne div:nth-child(1) img {
+  height: 168px;
+  width: 175px;
+  border-radius: 12px;
+  padding: 5%;
+  margin-top: 2px;
+}
+
+section.sectionOne div.sectionOneSecond {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section.sectionOne div.sectionOneSecond > div:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section.sectionOne div.sectionOneSecond > div:nth-child(1) > div:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.sectionOne div.sectionOneSecond > div:nth-child(1) > div:nth-child(1) > p:nth-child(1) {
+  color: #4F4F4F;
+  font-size: 24px;
+}
+
+section.sectionOne div.sectionOneSecond > div:nth-child(1) > div:nth-child(1) > p:nth-child(2) {
+  color: #828282;
+}
+
+section.sectionOne div.sectionOneSecond > div:nth-child(1) > div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #4F4F4F;
+}
+
+section.sectionOne div.sectionOneSecond > div:nth-child(1) > div:nth-child(2) div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.sectionOne div.sectionOneSecond > div:nth-child(1) > div:nth-child(2) div p {
+  margin-left: 8px;
+}
+
+section.sectionOne div.sectionOneSecond > div:nth-child(2), section.sectionOne div.sectionOneSecond > div:nth-child(3) {
+  padding-right: 10%;
+}
+/*# sourceMappingURL=style.css.map */

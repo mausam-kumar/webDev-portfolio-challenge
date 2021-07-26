@@ -1,0 +1,23 @@
+
+$titleFontColor : #4F4F4F;
+$smallFontColor : #828282;
+$smallFontSize : 18px;
+$titleFontSize: 24px;
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333333;
+}
+.mainSection{
+    margin: 10px auto;
+    width: 920px;
+    
+    background-color: rgb(246, 247, 248)
+}
+@import './sectionOne';
+@import "./sectionTwo";
+@import './sectionThree';
+@import './sectionFour'
