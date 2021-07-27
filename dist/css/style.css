@@ -522,6 +522,7 @@ section.sectionOne div.sectionOneSecond > div:nth-child(2), section.sectionOne d
 .sectionThreeButton {
   height: 33px;
   border-radius: 12px;
+  background-color: white;
   border: 1px solid black;
   -webkit-transition: .4s all ease-in-out;
   transition: .4s all ease-in-out;
@@ -530,5 +531,115 @@ section.sectionOne div.sectionOneSecond > div:nth-child(2), section.sectionOne d
 .sectionThreeButton:hover {
   background: #2F80ED;
   color: white;
+  border: None;
+}
+
+.sectionFour {
+  margin: 0px auto;
+  width: 1046px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionFourLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 567.9999389648438px;
+  width: 328.4949035644531px;
+  border-radius: 12px;
+  background-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sectionFourLeft > img {
+  height: 217px;
+  width: 292px;
+  border-radius: 12px;
+}
+
+.sectionFourLeftFirst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 70px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-family: Montserrat;
+  color: #828282;
+}
+
+.sectionFourLeftFirst span {
+  margin-left: 8px;
+}
+
+.sectionFourLeftSecond {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 3%;
+  padding-right: 6%;
+}
+
+.sectionFourLeftSecond > p:nth-child(1) {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sectionFourLeftSecond > p:nth-child(2) {
+  margin-top: 10px;
+  color: #828282;
+}
+
+.sectionFourLeftThird {
+  width: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionFourLeftThird button {
+  height: 46px;
+  width: 135px;
+  border-radius: 12px;
+  border: 1px solid black;
+  -webkit-transition: .4s all ease-in-out;
+  transition: .4s all ease-in-out;
+  outline: none;
+}
+
+.sectionFourLeftThird button:hover {
+  color: white;
+  background: #2F80ED;
+  border: None;
 }
 /*# sourceMappingURL=style.css.map */

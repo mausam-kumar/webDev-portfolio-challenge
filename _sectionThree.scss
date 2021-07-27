@@ -47,6 +47,7 @@
 .sectionThreeButton{
     height: 33px;
     border-radius: 12px;
+    background-color: white;
     border: 1px solid black;
     transition: .4s all ease-in-out;
 
@@ -54,4 +55,5 @@
 .sectionThreeButton:hover{
     background: #2F80ED;
     color: white;
+    border: None;
 }
