@@ -260,6 +260,59 @@ section.sectionOne div.sectionOneSecond > div:nth-child(2), section.sectionOne d
   width: 596px;
   border-radius: 12px;
   background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #828282;
+}
+
+.sectionTwoMainDivRightTop > p:nth-child(1) {
+  margin-left: 20px;
+}
+
+.sectionTwoMainDivRightTop > div:nth-child(4) a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.sectionTwoMainDivRightTopFirst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionTwoMainDivRightTopFirst > div:nth-child(1) {
+  padding: 3%;
+  font-size: 24px;
+  color: #4F4F4F;
+  font-weight: 500;
+  line-height: 29.26px;
+}
+
+.sectionTwoMainDivRightTopFirst > div:nth-child(2) img {
+  height: 300px;
+  width: 366px;
+  margin-left: 16px;
+  border-radius: 12px;
+}
+
+.sectionTwoMainDivRightTopSecond {
+  height: 120px;
+  width: 492px;
+  margin-left: 20px;
+  border-radius: nullpx;
+}
+
+.sectionTwoMainDivRightTopSecond > p:nth-child(2) {
+  margin-top: 20px;
 }
 
 .sectionTwoMainDivRightBottom {
@@ -282,7 +335,6 @@ section.sectionOne div.sectionOneSecond > div:nth-child(2), section.sectionOne d
           align-items: flex-start;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  border: 1px solid red;
 }
 
 .sectionTwoMainDivRightBottom > div:nth-child(1) {
@@ -292,7 +344,6 @@ section.sectionOne div.sectionOneSecond > div:nth-child(2), section.sectionOne d
 }
 
 .sectionTwoMainDivRightBottomContent {
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
