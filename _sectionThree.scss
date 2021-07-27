@@ -1,0 +1,57 @@
+
+.sectionThree{
+    margin: 30px auto;
+    width: 1046px;
+    height: 115px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+}
+.sectionThreeTop{
+    margin-left: 15px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.sectionThreeBottom{
+    display: flex;
+    margin-left: 15px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    & > button:nth-child(1){
+        width: 85px;        
+    }
+    & > button:nth-child(2){
+        width: 72px;
+        margin-left: 10px;
+    }
+    & > button:nth-child(3){
+        width: 118px;
+        margin-left: 10px;
+    }
+
+}
+.sectionThreeButton{
+    height: 33px;
+    border-radius: 12px;
+    border: 1px solid black;
+    transition: .4s all ease-in-out;
+
+}
+.sectionThreeButton:hover{
+    background: #2F80ED;
+    color: white;
+}

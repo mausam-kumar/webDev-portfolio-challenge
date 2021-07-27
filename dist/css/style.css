@@ -462,4 +462,73 @@ section.sectionOne div.sectionOneSecond > div:nth-child(2), section.sectionOne d
 .progressWhite6 {
   width: 70.85px;
 }
+
+.sectionThree {
+  margin: 30px auto;
+  width: 1046px;
+  height: 115px;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: white;
+}
+
+.sectionThreeTop {
+  margin-left: 15px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sectionThreeBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 15px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.sectionThreeBottom > button:nth-child(1) {
+  width: 85px;
+}
+
+.sectionThreeBottom > button:nth-child(2) {
+  width: 72px;
+  margin-left: 10px;
+}
+
+.sectionThreeBottom > button:nth-child(3) {
+  width: 118px;
+  margin-left: 10px;
+}
+
+.sectionThreeButton {
+  height: 33px;
+  border-radius: 12px;
+  border: 1px solid black;
+  -webkit-transition: .4s all ease-in-out;
+  transition: .4s all ease-in-out;
+}
+
+.sectionThreeButton:hover {
+  background: #2F80ED;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
