@@ -12,7 +12,7 @@ body {
 .outerMainSection {
   width: 1250px;
   background-color: #C4C4C4;
-  margin: 5% auto;
+  margin: 10px auto;
   padding-top: 2%;
   border-radius: 10px;
 }
@@ -641,5 +641,89 @@ section.sectionOne div.sectionOneSecond > div:nth-child(2), section.sectionOne d
   color: white;
   background: #2F80ED;
   border: None;
+}
+
+.sectionFive {
+  margin: 20px auto;
+  height: 46px;
+  width: 1046px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.sectionFive button {
+  height: 36px;
+  width: 36px;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 15px;
+  border: 1px solid black;
+  background-color: white;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  color: #4F4F4F;
+  -webkit-transition: .4s all ease-in-out;
+  transition: .4s all ease-in-out;
+}
+
+.sectionFive button:hover {
+  background-color: #2F80ED;
+  color: white;
+}
+
+.sectionFive > button:nth-child(5) {
+  border: none;
+  font-size: 26px;
+  background-color: inherit;
+}
+
+.lastSection {
+  margin: 0px auto;
+  height: 30px;
+  width: 1046px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  background-color: white;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.lastSection a {
+  -webkit-transition: .4s all ease-in-out;
+  transition: .4s all ease-in-out;
+  color: #340461;
+}
+
+.lastSection a:hover {
+  color: orangered;
 }
 /*# sourceMappingURL=style.css.map */
